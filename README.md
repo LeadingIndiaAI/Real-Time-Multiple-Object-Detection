@@ -1,2 +1,23 @@
-# Real-Time-Multiple-Object-Detection
-The ability of the computer to locate and identify each object in an image/video is known as object detection. Object detection has many applications in self-driving cars, pedestrian counting, face detection, vehicle detection etc. One of the crucial element of the self-driving car is the detection of various objects on the road like traffic signals, pedestrian’s other vehicles, sign boards etc. In this project, Convolutional Neural Network (CNN) based approach is used for real-time detection of multiple objects on the road. YOLO (You Only Look Once) v2 Deep Learning model is trained on PASCAL VOC dataset. We achieved mAP score of 78 on test dataset after training the model on NVIDIA DGX-1 V100 Super Computer. The trained model is then applied on recorded videos and on live streaming received through web cam.
+# Real_time_Object_detection_TF
+We worked on a project based on Deep Learning and we are able to detect objects through an image, a video and real-time(web cam and cellphone camera)
+
+This is an implementation of tensor flow object detection API for running it in Real time through Webcam and cellphone camera.
+# Contributors:
+* https://github.com/himanshu8004
+* https://github.com/Anshu15bit
+* https://github.com/ashikaks
+* https://github.com/sumananand222
+
+The video for the same is at :
+
+Download the object_recognition_detection.zip
+
+For running the object detection on image files run the object_detection_tutorial.py
+
+For running the object detection in realtime with web camera run the object_detection_webcam.py
+
+For running the object detection in realtime with cellphone camera run the object_detection_phone.py
+
+The official tensorflow object detection API link is https://github.com/tensorflow/models/tree/master/object_detection
+
+For installing ProtoBuf : https://github.com/google/protobuf/releases?after=v3.4.1
